@@ -9,6 +9,6 @@
 + [**Nginx**](./nginx.md)
 + [**数据库**](./database.md)
 + [**Docker**](./docker.md)
-+ [**Shadowsocket**](./shadowsocket.md)
++ [**Shadowsocks**](./shadowsocket.md)
 
 ---
