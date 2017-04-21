@@ -30,6 +30,6 @@ $./configure && make && make install
 	+ 客户端
 	
 		```
-		$echo "alias shadowsocks='ss-local -s your_server_ip -p 8388 -l 1080 -m aes-256-cfb -k your_pwd >> /dev/null 2>&1 &'" ~/.bashrc
+		$echo "alias shadowsocks='ss-local -s your_server_ip -p 8388 -l 1080 -m aes-256-cfb -k your_pwd > /dev/null 2>&1 &'" >> ~/.bashrc
 		$source ~/.bashrc && shadowsocks
 		```
